@@ -2,23 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sat</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>STAssertTrue(&lt;#expr#&gt;, &lt;#description, ...#&gt;);
+	<string>---
+title: "Set Frame"
+summary: "Initializes a view frame inside a code block"
+completion-scope: Function or Method
+---
+
+&lt;# view #&gt;.frame = ({
+    CGRect frame = &lt;# view #&gt;.frame;
+    &lt;# ... #&gt;
+    frame;
+});
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>41AAFA05-6CEB-40DB-BE10-4DDEC61ADEA6</string>
+	<string>59ECB78D-F684-4A53-8FE1-DBF784BDCC1C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>ST true assertion</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>sat</string>
+	<string>frame</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

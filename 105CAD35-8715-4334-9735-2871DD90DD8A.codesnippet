@@ -2,23 +2,26 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>saf</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>STAssertFalse(&lt;#expr#&gt;, &lt;#description, ...#&gt;);
+	<string>---
+title: "ImageView"
+summary: "Create &amp; Initialize UIImageView with Named Image"
+platform: iOS
+completion-scope: Code Expression
+---
+
+[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"&lt;#image name#&gt;"]]
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>429A378E-A425-4E10-836A-A0C2FE2D2936</string>
+	<string>105CAD35-8715-4334-9735-2871DD90DD8A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>ST false assertion</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>saf</string>
+	<string>imv</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

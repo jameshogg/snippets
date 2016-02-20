@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>---
+title: "UIViewController Lifecycle"
+summary: "Placeholders for all of the view controller lifecycle methods"
+platform: iOS
+completion-scope: Class Implementation
+---
+
+#pragma mark - UIViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9413954A-1F8B-4107-975D-B83828D30F9D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>lifecycle</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

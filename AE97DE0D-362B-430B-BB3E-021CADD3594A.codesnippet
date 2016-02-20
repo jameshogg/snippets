@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>---
+title: "UIPickerViewDataSource"
+summary: "Placeholders for required UIPickerView datasource methods"
+platform: iOS
+completion-scope: Class Implementation
+---
+
+#pragma mark - UIPickerDataSource
+
+- (NSInteger)pickerView:(UIPickerView *)pickerView
+numberOfRowsInComponent:(NSInteger)component
+{
+  return &lt;#number#&gt;
+}
+
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
+  return &lt;#number#&gt;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AE97DE0D-362B-430B-BB3E-021CADD3594A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>pds</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

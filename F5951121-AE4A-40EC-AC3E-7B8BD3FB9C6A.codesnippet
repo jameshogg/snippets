@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>---
+title: "XCT Assert Not Nil"
+summary: "Assert not nil for XCTest"
+completion-scope: Function or Method
+---
+
+XCTAssertNotNil(&lt;#expression#&gt;, &lt;#message#&gt;);
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F5951121-AE4A-40EC-AC3E-7B8BD3FB9C6A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>xann</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
